@@ -21,5 +21,5 @@ fi
 make clean
 make
 docker tag raphaelmeyer/base raphaelmeyer/base:${tag}
-# docker push raphaelmeyer/base:${tag}
+docker push raphaelmeyer/base:${tag}
 
